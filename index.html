@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Domain Update Notice</title>
+
+    <!-- Google Font: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #f5f7fa;
+            color: #333;
+            padding: 20px;
+        }
+
+        .container {
+            background: #ffffff;
+            padding: 28px 22px;
+            border-radius: 16px;
+            max-width: 420px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            animation: fadeIn 0.8s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .icon-box {
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            background: #eef2ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 18px;
+        }
+
+        h1 {
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #222;
+        }
+
+        p {
+            font-size: 0.9rem;
+            margin-bottom: 14px;
+            line-height: 1.45;
+        }
+
+        .notice {
+            background: #f9f9ff;
+            border-left: 4px solid #4f46e5;
+            padding: 10px 12px;
+            border-radius: 6px;
+            font-size: 0.85rem;
+            margin-bottom: 18px;
+            text-align: left;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            text-decoration: none;
+            background: #4f46e5;
+            padding: 10px 18px;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: 0.25s ease;
+        }
+
+        .btn:hover {
+            background: #372fcb;
+            transform: translateY(-2px);
+        }
+
+        .footer {
+            margin-top: 18px;
+            font-size: 0.75rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon-box">
+            <i data-feather="alert-circle" style="width:32px;height:32px;color:#4f46e5;"></i>
+        </div>
+
+        <h1>We’ve Moved to a New Domain</h1>
+
+        <p>
+            This domain is currently experiencing issues.  
+            Please continue on our new official domain using the button below.
+        </p>
+
+        <div class="notice">
+            <strong>Important:</strong>  
+            If you already have an account, **you do not need to create a new one**.  
+            Some accounts were deleted for technical reasons, but if you had money in your previous account, **we have records and will restore your balance**.  
+            Need help? WhatsApp: <strong>0540562479</strong>.
+        </div>
+
+        <a href="https://buy.pbmdatahub.pro" class="btn">
+            <i data-feather="arrow-right"></i> Continue to New Domain
+        </a>
+
+        <div class="footer">
+            Thank you for your patience and cooperation.
+        </div>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
